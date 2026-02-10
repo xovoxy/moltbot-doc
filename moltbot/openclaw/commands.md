@@ -67,7 +67,8 @@ Directives 的行为：
 - `/dock-slack`（别名：`/dock_slack`）
 - `/activation mention|always`（群聊激活策略）
 - `/send on|off|inherit`（owner-only）
-- `/reset` 或 `/new [model]`（可选 model hint；其余文本继续作为消息正文）
+- `/reset`（或 `/new`）：开启新会话/清空当前会话上下文
+- `/new [model]`：开启新会话，并可选指定模型（model alias / provider/model）；其余文本会作为普通消息继续处理
 - `/think <off|minimal|low|medium|high|xhigh>`（别名：`/thinking`、`/t`）
 - `/verbose on|full|off`（别名：`/v`）
 - `/reasoning on|off|stream`（别名：`/reason`；群聊谨慎）
